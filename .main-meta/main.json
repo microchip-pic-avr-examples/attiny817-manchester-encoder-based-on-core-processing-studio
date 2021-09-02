@@ -3,18 +3,18 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.manchester-encoding-based-on-core-processing-studio",
-        "version": "1.0.0",
+        "name": "com.microchip.mcu8.studio.project.attiny817-manchester-encoder-based-on-core-processing-studio",
+        "version": "1.0.1",
         "displayName": "Manchester Encoder Based on Core Processing",
-        "projectName": "manchester-encoding-based-on-core-processing-studio",
+        "projectName": "attiny817-manchester-encoder-based-on-core-processing-studio",
         "shortDescription": "This example implements a Manchester encoder using core processing and a single TCB peripheral.",
         "ide": {
-            "name": "Studio",
+            "name": "STUDIO",
             "semverRange": ">=7.0.2397"
         },
         "compiler": [
             {
-                "name": "AVR-GCC",
+                "name": "AVR GCC",
                 "semverRange": "^5.4.0"
             }
         ],
@@ -38,7 +38,6 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "START",
             [
                 "Peripherals",
                 "TCB"
@@ -52,6 +51,8 @@
             "TCB"
         ],
         "keywords": [
+            "START",
+            "Encoder"
         ],
         "additionalData": {
             "longDescription": {
